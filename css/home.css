@@ -6,17 +6,18 @@ body {
   box-sizing: border-box;
   font-family: Crete Round; sans-serif;
   font-weight: 100;
+  padding:0;
+  margin:0;
 }
 
 ul {
-  padding-left: 0;
   list-style: none;
 }
 
 header {
-  position: fixed;
   width: 100%;
   height: 180px;
+  position: fixed;
   border-bottom: 3px;
   border-bottom-style: solid;
   border-bottom-color: black;
@@ -25,10 +26,10 @@ header {
 }
 
 .nav img {
+  width: 250px;
   position: fixed;
   padding-top: 20px;
   left: 40px;
-  width: 250px;
 }
 
 .nav {
@@ -42,7 +43,7 @@ header {
 }
 
 .nav li {
-  padding-top: 97px;
+  padding-top: 120px;
   display: inline-block;
   margin: 0 40px;
 }
@@ -61,19 +62,27 @@ span {
 }
 
 .content {
+  position: absolute;
+  top: 190px;
   display: flex;
   align-items: center;
   justify-content: center;
-  padding-top: 200px;
-  padding-bottom: 60px;
   width:100%;
-  height: 800;
+  height: 630;
   text-align: center;
+  z-index: 0;
 }
 
-.content img {
+.bildhome img {
+  width: 100%;
+  border-style: none;
+}
+
+.portfolio {
   border-style: solid;
   border-width: 1px;
+  border-style: none;
+  padding-bottom: 50px;
 }
 
 .contentcv {
@@ -82,20 +91,34 @@ span {
 }
 
 .contentcv img {
-  width: 300px;
+  float: left;
+  width: 235px;
+  padding-right: 30px;
+}
+
+.cvtext {
+  width: 950px;
+  text-align: left;
   line-height: 30px;
-  border-style: none;
 }
 
 hr {
   border: 0.5px solid;
   border-color: black;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.portfolioimage {
+  border-style: solid;
+  border-width: 1px;
 }
 
 .arrow img {
   height: 40px;
   weight: 40px;
   border-style: none;
+  padding-right: 20px;
 }
 
 .box1, .box2, .box3, .box4, .box5, .box6 {
@@ -166,9 +189,11 @@ hr {
 }
 
 .impressum {
-  clear: both;
+  position: absolute;
+  color: white;
   width: 100%;
   height: 100px;
+  bottom:0;
   text-align: center;
   font-weight: bolder;
   margin-left: auto;
@@ -177,4 +202,5 @@ hr {
   border-top-style: solid;
   border-top-color: black;
   padding-top: 35px;
+  z-index: 1;
 }
