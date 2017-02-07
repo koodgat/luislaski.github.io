@@ -135,27 +135,27 @@ hr {
 }
 
 .box1 {
-  background-image: url(/Users/luis/Sites/luislaski.github.io/images/glueck.jpg);
+  background-image: url('../images/glueck.jpg');
 }
 
 .box2 {
-  background-image: url(/Users/luis/Sites/luislaski.github.io/images/ohrenmoire.jpg);
+  background-image: url('../images/ohrenmoire.jpg');
 }
 
 .box3 {
-  background-image: url(/Users/luis/Sites/luislaski.github.io/images/elch_1.jpg);
+  background-image: url('../Users/luis/Sites/luislaski.github.io/images/elch_1.jpg');
 }
 
 .box4 {
-  background-image: url(/Users/luis/Sites/luislaski.github.io/images/messer.jpg);
+  background-image: url('../Users/luis/Sites/luislaski.github.io/images/messer.jpg');
 }
 
 .box5 {
-  background-image: url(/Users/luis/Sites/luislaski.github.io/images/berg.jpg);
+  background-image: url('../Users/luis/Sites/luislaski.github.io/images/berg.jpg');
 }
 
 .box6 {
-  background-image: url(/Users/luis/Sites/luislaski.github.io/images/kinder.jpg);
+  background-image: url('../Users/luis/Sites/luislaski.github.io/images/kinder.jpg');
 }
 
 .box1:hover {
